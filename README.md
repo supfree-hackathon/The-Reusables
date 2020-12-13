@@ -3,6 +3,8 @@ This is our submission for the SUP Free hackathon by Crowdpolicy
 
 ## Technologies Used:
 The website is build with **Django** in **Python**, it also used **HTML**, **CSS** and **Java**.
+Insite the **Site** files you can find the HTML files in the **templates** directory, and in the **static** directory you can find the **css**,**js** and images
+
 There is a function in the site to upload and register a bin. To do that the coordinates are taken with the Google Maps API and the the phot is processed with a Convolutional Neural Network. First the object detection happens to locate the bin in the image, then another Convolutional Network makes the classification if the bin is garbage or recycle.
 There is another Concolutional Network that classifies materials in 6 categories
 * Paper
