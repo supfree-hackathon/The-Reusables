@@ -1,0 +1,392 @@
+
+body, html, .main {
+  height: 100%;
+  margin:0;
+  padding:0;
+  font-family: 'Comfortaa', cursive;
+}
+
+section {
+  height: 100%;
+}
+
+
+ul.gar{
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+	margin:0;
+	padding: 0;
+	justify-content:space-around;
+}
+
+ul.gar li{
+	display:flex;
+	justify-content: center;
+	
+}
+
+ul.sec {
+	list-style-type: none;
+	display: flex;
+	width: 100%;
+	margin:0;
+	padding: 0;
+	justify-content:space-around;
+	
+}
+
+section.one{
+	padding-top: 50px;
+}
+
+section.two{
+	padding-top: 50px;
+}
+
+section.three{
+	padding-top: 50px;
+}
+
+
+/* .one{
+	background: rgb(142, 235, 142);
+}
+
+.two{
+	background:  rgb(218, 240, 179);
+}
+
+.three{
+	background:  rgb(167, 245, 222);
+} */
+
+
+.drink{
+	background-image: url(drink.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
+.food{
+	background-image: url(food.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
+
+.grocery{
+	background-image: url(grocery.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
+.secname1{
+  display: block;
+  height: 70px;
+  background: rgb(142, 235, 142);
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.secname2{
+  display: block;
+  height: 70px;
+  background: rgb(218, 240, 179);
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.secname3{
+  display: block;
+  height: 70px;
+  background: rgb(167, 245, 222);
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+  }
+  
+  
+
+.progressbar {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 60%;
+    min-width: 300px;
+  }
+  
+  .progressbar>div {
+    background-color:greenyellow;;
+    width: 90%;
+    /* Adjust with JavaScript */
+    height: 20px;
+    border-radius: 10px;
+  }
+
+  .progressbar1 {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 60%;
+    min-width: 300px;
+  }
+  
+  .inner>div {
+    background-color:greenyellow;;
+    width: 30%;
+    /* Adjust with JavaScript */
+    height: 20px;
+    border-radius: 10px;
+  }
+
+  .progressbar2 {
+    background-color: black;
+    border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width: 60%;
+    min-width: 300px;
+  }
+  
+  .progressbar2>div {
+    background-color:greenyellow;;
+    width: 60%;
+    /* Adjust with JavaScript */
+    height: 20px;
+    border-radius: 10px;
+  }
+
+  ul.mylist{
+      display: flex;
+      list-style-type: none;
+      height: 80px;
+      padding:10px;
+      
+
+  }
+
+  li.foodbrand{
+      background-image: url(foodbrand.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 80px;
+      width: 80px;
+      margin-right: 10px ;
+  }
+
+  li.food a{
+    width: 100%;
+    height: 100px;
+  }
+
+  li.drink a{
+    width: 100%;
+    height: 100px;
+  }
+
+  li.grocery a{
+    width: 100%;
+    height: 100px;
+  }
+
+  li.food a p{
+    
+    font-weight: 900;
+    color: black;
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    text-align: center;
+  }
+
+  li.drink a p{
+    
+    font-weight: 900;
+    color: black;
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    text-align: center;
+  }
+
+  li.grocery a p{
+    
+    font-weight: 900;
+    color: black;
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    text-align: center;
+  }
+
+li.food:hover{
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+}
+
+li.drink:hover{
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+}
+
+li.grocery:hover{
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+}
+
+
+  li.coffeebrand{
+    background-image: url(coffeebrand.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    margin-right: 10px ;
+}
+
+li.grocerybrand{
+  background-image: url(grocerybrand.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+  margin-right: 10px ;
+}
+ 
+  .outer{
+    border: 2px solid rgb(82, 77, 77);
+    border-radius: 0.3rem;
+    background-color: rgb(142, 235, 142);
+    width: 80%;
+    
+  }
+
+  .outer2{
+    border: 2px solid rgb(82, 77, 77);
+    border-radius: 0.3rem;
+    background-color: rgb(218, 240, 179);
+    width: 80%;
+    
+  }
+
+  .outer3{
+    border: 2px solid rgb(82, 77, 77);
+    border-radius: 0.3rem;
+    background-color: rgb(167, 245, 222);
+    width: 80%;
+    
+  }
+
+  .inner{
+      margin-bottom: 10px;
+	  margin-left: 10px;
+	  background-color: black;
+      border-radius: 13px;
+    /* (height of inner div) / 2 + padding */
+      padding: 3px;
+      width: 60%;
+      min-width: 300px;
+  }
+
+  .outer:hover{
+      opacity: 0.8;
+      transition: 0.2s ease-in-out;
+      
+
+  }
+
+
+
+
+
+
+
+    @media (max-width:800px){
+    
+    .outer{
+        height: 100px;
+    }
+
+    ul.mylist{
+        height: 50px;
+  
+    }
+
+    li.brand{
+        height: 50px;
+
+        
+    }
+
+    li.foodbrand{
+      height: 50px;
+      width: 50px;
+  }
+
+  li.coffeebrand{
+    
+    height: 50px;
+    width: 50px;
+}
+
+li.grocerybrand{
+  
+  height: 50px;
+  width: 50px;
+}
+
+    #progressbar11>div{
+        height: 10px;
+    }
+    
+    #progressbar12>div{
+        height: 10px;
+    }
+
+    #progressbar13>div{
+        height: 10px;
+    }
+
+	#progressbar21>div{
+        height: 10px;
+    }
+    
+    #progressbar22>div{
+        height: 10px;
+    }
+
+    #progressbar23>div{
+        height: 10px;
+    }
+
+	#progressbar31>div{
+        height: 10px;
+    }
+    
+    #progressbar32>div{
+        height: 10px;
+    }
+
+    #progressbar33>div{
+        height: 10px;
+    }
+}

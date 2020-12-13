@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+{% load static %}
+<link rel="stylesheet" href="{% static 'blog/kadoi/try2.css' %}">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+
+
+<body>
+
+  <div class="w3-top">
+    <div class="w3-bar mine w3-card w3-left-align w3-medium">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="{%url 'home'%}" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Αρχική</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Βρες τον Κάδο</a>
+      <a href="{%url 'anakiklosima'%}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Πως Ανακυκλώνω</a>
+      <a href="{%url 'antamoivi'%}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Refill</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Blog</a>
+    </div>
+  
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Βρες τον Κάδο</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Πως Ανακυκλώνω</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Refill</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Blog</a>
+    </div>
+  </div>
+  
+  <!-- Header -->
+  <header class="w3-container w3-green w3-center" style="padding:50px 16px">
+    <button class="w3-button w3-medium w3-right w3-border w3-border-black w3-white w3-hover-grey w3-round-xlarge right">Login</button>
+    <h1 class="w3-margin w3-jumbo">RePortal</h1>
+    <h2 class=" w3-center ">Βρες τον κάδο σου!</h2>
+    
+    <!-- <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Get Started</button> -->
+    
+  </header>  
+
+<!-- First Grid -->
+<div class="contain">
+  <ul class="refill">
+      <li  class="food"><a href="" ><p>Καταχώρισε τον Κάδο σου</p></a></li>
+      <li class="drink"><a href=""><p>Ο Κάδος μου είναι γεμάτος</p></a></li>
+  </ul>
+</div>
+
+<!-- Second Grid -->
+
+<div class="w3-container w3-green w3-center w3-padding-50">
+  <h1 class="w3-margin w3-xlarge">Βρες τους κοντινούς Άδειους Κάδους</h1>
+  
+</div>
+
+
+<!-- google maps -->
+
+
+<div class="googlemaps">
+  <!-- <script>
+    function initMap() {
+    const myLatLng = { lat: 40.269463, lng: 22.507555 };
+    const map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 4,
+      center: myLatLng,
+    });
+    new google.maps.Marker({
+      position: myLatLng,
+      map,
+      title: "Hello World!",
+    });
+  }
+  </script> -->
+  <p style="text-align: center;">
+    <iframe class ="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4305.29955869332!2d22.505787402672784!3d40.26894091327879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13580230b9f68195%3A0xf4bd54321e6447c7!2zzqTOvyDOnM-AzrHPh86sz4HOuQ!5e0!3m2!1sen!2sgr!4v1607545422630!5m2!1sen!2sgr" width="90%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </p>  
+
+
+  <div>
+    <ul class="xorigoi">
+      <li class="logo1"></li>
+      <li class="logo2"></li>
+      <li class="logo3"></li>
+      <li class="logo4"></li>
+    </ul>
+    <ul class="notes">
+      <li class="note"><p>Ανακύκλωση</p></li>
+      <li class="note"><p>Σκουπίδια</p></li>
+      <li class="note"><p>Ηλεκτρικά</p></li>
+      <li class="note"><p>Γυαλί</p></li>
+    </ul>
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+ <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

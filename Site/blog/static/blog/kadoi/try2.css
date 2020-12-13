@@ -1,0 +1,202 @@
+*{
+    margin:0;
+}
+
+
+
+.contain{
+    width: 100%;
+    margin:auto;
+    height: 300px;
+    margin-bottom: 0px;
+    
+}
+
+ul.refill{
+    display: flex;
+    height: 300px;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+ul.refill li.food {
+    flex: 1 1 100%; 
+    height: 300px;
+    background-image: url(mobile-before.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding:0; 
+    margin: 0;
+    width: 100%;
+}
+
+ul.refill li.food a{
+    text-decoration: none;
+    display:flex;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul.refill li.food p{
+    font-size: 1.4em;
+    font-weight: 800;
+    color:black;
+    flex: 1;
+    display: block;
+    background-color:grey;
+    width: 100%;
+    margin:0;
+    text-align:center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 275%);
+    
+
+}
+
+
+ul.refill li.drink {
+    flex: 1 1 100%; 
+    height: 300px;
+    background-image: url(kouvas.png);
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: center left 70%;
+    display:flex;
+    justify-content: center;
+    align-items: top;
+    border-left: 1px grey solid;
+    
+}
+
+
+
+ul.refill li.drink a{
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    
+}
+
+ul.refill li.drink p{
+    font-size: 1.4em;
+    font-weight: 800;
+    color: black;
+    flex: 1;
+    display: block;
+    background-color:grey;
+    width: 100%;
+    margin:0;
+    text-align:center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 275%);
+}
+
+ul.refill li.food:hover{
+    opacity: 0.7;
+    transition: 0.4s ease-in-out;
+    background-image: url(mobile-after.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    
+}
+
+ul.refill li.drink:hover{
+    opacity:0.7;
+    transition: 0.4s ease-in-out;
+    background-image: url(imageedit_4_9433493231.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.googlemaps{
+    background: lightgreen;
+    padding-top: 40px;
+    padding-bottom:40px ;
+}
+
+
+
+ul.xorigoi {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    height: 75px;
+    margin: 20px auto;
+    padding: 0;
+    flex-wrap: wrap;
+    
+}
+
+ul.xorigoi li.logo1 {
+    flex: 1 1 75px;
+    height: 75px;
+    background-image: url(c1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+ul.xorigoi li.logo2 {
+    flex: 1 1 75px;
+    height: 75px;
+    background-image: url(c2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+ul.xorigoi li.logo3 {
+    flex: 1 1 75px;
+    height: 75px;
+    background-image: url(c3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+ul.xorigoi li.logo4 {
+    flex: 1 1 75px;
+    height: 75px;
+    background-image: url(c4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    
+}
+
+
+ul.notes {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    height: 100px;
+    margin: 20px auto;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+ul.notes li.note {
+    flex: 1 1 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+ul.notes li.note p{
+    text-align: center;
+    font-weight: 500;
+}
